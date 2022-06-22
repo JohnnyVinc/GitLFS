@@ -1306,3 +1306,95 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.06.22-13.32.50:548][371]LogHttp: Warning: 0000016ABE1F4100: libcurl info message cache 21 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
 [2022.06.22-13.32.50:555][372]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B623D5614-4C74-8D45-75F7-71B1BA1F0E92%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=fb4510f546128c7969546d8dd2b0e163%7C80eb538ab7a74e2db61043cd41bcb5ed%7C21911977-269b-4b24-bab5-5461cbf71006&AppEnvironment=datacollector-binary&UploadType=eteventstream
 [2022.06.22-13.32.56:911][ 59]LogSlate: Window 'Color Picker' being destroyed
+[2022.06.22-13.33.19:548][523]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Trash/TestActor1.TestActor1
+[2022.06.22-13.33.20:077][523]LogBlueprintEditor: Perf: 0.4 total seconds to load all 5 blueprint libraries in project. Avoid references to content in blueprint libraries to shorten this time.
+[2022.06.22-13.33.20:077][523]LogBlueprintEditor: Perf: 0.4 seconds loading: /Engine/ArtTools/RenderToTexture/Macros/RenderToTextureMacros
+[2022.06.22-13.33.20:121][523]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 126 classes and 0 folders.
+[2022.06.22-13.33.21:187][523]LogRenderer: Reallocating scene render targets to support 1240x684 Format 10 NumSamples 1 (Frame:1).
+[2022.06.22-13.33.50:435][ 52]LogSlate: Window 'TestActor1' being destroyed
+[2022.06.22-13.33.50:441][ 52]LogSlate: Window 'TestActor1' being destroyed
+[2022.06.22-13.33.50:442][ 52]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2022.06.22-13.33.50:442][ 52]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.22-13.33.50:542][ 61]LogHttp: Warning: 0000016B6DBCCF00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B623D5614-4C74-8D45-75F7-71B1BA1F0E92%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=fb4510f546128c7969546d8dd2b0e163%7C80eb538ab7a74e2db61043cd41bcb5ed%7C21911977-269b-4b24-bab5-5461cbf71006&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2022.06.22-13.33.50:542][ 61]LogHttp: Warning: 0000016B6DBCCF00: request failed, libcurl error: 51 (SSL peer certificate or SSH remote key was not OK)
+[2022.06.22-13.33.50:542][ 61]LogHttp: Warning: 0000016B6DBCCF00: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2022.06.22-13.33.50:542][ 61]LogHttp: Warning: 0000016B6DBCCF00: libcurl info message cache 1 (  Trying 52.44.102.139...)
+[2022.06.22-13.33.50:542][ 61]LogHttp: Warning: 0000016B6DBCCF00: libcurl info message cache 2 (TCP_NODELAY set)
+[2022.06.22-13.33.50:542][ 61]LogHttp: Warning: 0000016B6DBCCF00: libcurl info message cache 3 (Connected to datarouter.ol.epicgames.com (52.44.102.139) port 443 (#9))
+[2022.06.22-13.33.50:542][ 61]LogHttp: Warning: 0000016B6DBCCF00: libcurl info message cache 4 (ALPN, offering http/1.1)
+[2022.06.22-13.33.50:542][ 61]LogHttp: Warning: 0000016B6DBCCF00: libcurl info message cache 5 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2022.06.22-13.33.50:542][ 61]LogHttp: Warning: 0000016B6DBCCF00: libcurl info message cache 6 (SSL re-using session ID)
+[2022.06.22-13.33.50:543][ 61]LogHttp: Warning: 0000016B6DBCCF00: libcurl info message cache 7 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2022.06.22-13.33.50:543][ 61]LogHttp: Warning: 0000016B6DBCCF00: libcurl info message cache 8 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2022.06.22-13.33.50:543][ 61]LogHttp: Warning: 0000016B6DBCCF00: libcurl info message cache 9 (TLSv1.2 (IN), TLS handshake, Finished (20):)
+[2022.06.22-13.33.50:543][ 61]LogHttp: Warning: 0000016B6DBCCF00: libcurl info message cache 10 (TLSv1.2 (OUT), TLS change cipher, Client hello (1):)
+[2022.06.22-13.33.50:543][ 61]LogHttp: Warning: 0000016B6DBCCF00: libcurl info message cache 11 (TLSv1.2 (OUT), TLS handshake, Finished (20):)
+[2022.06.22-13.33.50:543][ 61]LogHttp: Warning: 0000016B6DBCCF00: libcurl info message cache 12 (SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256)
+[2022.06.22-13.33.50:543][ 61]LogHttp: Warning: 0000016B6DBCCF00: libcurl info message cache 13 (ALPN, server accepted to use http/1.1)
+[2022.06.22-13.33.50:543][ 61]LogHttp: Warning: 0000016B6DBCCF00: libcurl info message cache 14 (Server certificate:)
+[2022.06.22-13.33.50:543][ 61]LogHttp: Warning: 0000016B6DBCCF00: libcurl info message cache 15 ( subject: CN=*.hqqj3kgvke57i.us-east-1.cs.amazonlightsail.com)
+[2022.06.22-13.33.50:543][ 61]LogHttp: Warning: 0000016B6DBCCF00: libcurl info message cache 16 ( start date: Apr  6 00:00:00 2022 GMT)
+[2022.06.22-13.33.50:543][ 61]LogHttp: Warning: 0000016B6DBCCF00: libcurl info message cache 17 ( expire date: May  5 23:59:59 2023 GMT)
+[2022.06.22-13.33.50:543][ 61]LogHttp: Warning: 0000016B6DBCCF00: libcurl info message cache 18 ( subjectAltName does not match datarouter.ol.epicgames.com)
+[2022.06.22-13.33.50:543][ 61]LogHttp: Warning: 0000016B6DBCCF00: libcurl info message cache 19 (SSL: no alternative certificate subject name matches target host name 'datarouter.ol.epicgames.com')
+[2022.06.22-13.33.50:543][ 61]LogHttp: Warning: 0000016B6DBCCF00: libcurl info message cache 20 (Closing connection 9)
+[2022.06.22-13.33.50:543][ 61]LogHttp: Warning: 0000016B6DBCCF00: libcurl info message cache 21 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2022.06.22-13.33.50:550][ 62]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B623D5614-4C74-8D45-75F7-71B1BA1F0E92%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=fb4510f546128c7969546d8dd2b0e163%7C80eb538ab7a74e2db61043cd41bcb5ed%7C21911977-269b-4b24-bab5-5461cbf71006&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2022.06.22-13.33.53:198][351]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2022.06.22-13.33.53:206][351]LogSavePackage: Moving 'C:/Users/Джони/OneDrive/Документы/GitHub/GitLFS/AnastasiyaM17062022/Saved/Level_001BD5B6C3D45177FD8D0F8F9AD4D69B5FF.tmp' to 'C:/Users/Джони/OneDrive/Документы/GitHub/GitLFS/AnastasiyaM17062022/Content/AnastasiyaProject/Maps/Level_001.umap'
+[2022.06.22-13.33.53:220][351]AssetCheck: New page: Asset Save: Level_001
+[2022.06.22-13.33.53:220][351]LogContentValidation: Display: Validating World /Game/AnastasiyaProject/Maps/Level_001.Level_001
+[2022.06.22-13.33.59:975][ 89]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Trash/TestActor1" FILE="C:/Users/Джони/OneDrive/Документы/GitHub/GitLFS/AnastasiyaM17062022/Content/Trash/TestActor1.uasset" SILENT=true
+[2022.06.22-13.33.59:979][ 89]LogSavePackage: Moving 'C:/Users/Джони/OneDrive/Документы/GitHub/GitLFS/AnastasiyaM17062022/Saved/TestActor1157DBABC411FC6D3B3874BBB25E9FD3C.tmp' to 'C:/Users/Джони/OneDrive/Документы/GitHub/GitLFS/AnastasiyaM17062022/Content/Trash/TestActor1.uasset'
+[2022.06.22-13.33.59:989][ 89]AssetCheck: New page: Asset Save: TestActor1
+[2022.06.22-13.33.59:989][ 89]LogContentValidation: Display: Validating Blueprint /Game/Trash/TestActor1.TestActor1
+[2022.06.22-13.34.50:696][972]LogHttp: Warning: 0000016ABD650F00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B623D5614-4C74-8D45-75F7-71B1BA1F0E92%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=fb4510f546128c7969546d8dd2b0e163%7C80eb538ab7a74e2db61043cd41bcb5ed%7C21911977-269b-4b24-bab5-5461cbf71006&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2022.06.22-13.34.50:696][972]LogHttp: Warning: 0000016ABD650F00: request failed, libcurl error: 51 (SSL peer certificate or SSH remote key was not OK)
+[2022.06.22-13.34.50:696][972]LogHttp: Warning: 0000016ABD650F00: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2022.06.22-13.34.50:696][972]LogHttp: Warning: 0000016ABD650F00: libcurl info message cache 1 (  Trying 52.44.102.139...)
+[2022.06.22-13.34.50:696][972]LogHttp: Warning: 0000016ABD650F00: libcurl info message cache 2 (TCP_NODELAY set)
+[2022.06.22-13.34.50:696][972]LogHttp: Warning: 0000016ABD650F00: libcurl info message cache 3 (Connected to datarouter.ol.epicgames.com (52.44.102.139) port 443 (#10))
+[2022.06.22-13.34.50:696][972]LogHttp: Warning: 0000016ABD650F00: libcurl info message cache 4 (ALPN, offering http/1.1)
+[2022.06.22-13.34.50:696][972]LogHttp: Warning: 0000016ABD650F00: libcurl info message cache 5 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2022.06.22-13.34.50:696][972]LogHttp: Warning: 0000016ABD650F00: libcurl info message cache 6 (SSL re-using session ID)
+[2022.06.22-13.34.50:696][972]LogHttp: Warning: 0000016ABD650F00: libcurl info message cache 7 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2022.06.22-13.34.50:696][972]LogHttp: Warning: 0000016ABD650F00: libcurl info message cache 8 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2022.06.22-13.34.50:696][972]LogHttp: Warning: 0000016ABD650F00: libcurl info message cache 9 (TLSv1.2 (IN), TLS handshake, Finished (20):)
+[2022.06.22-13.34.50:696][972]LogHttp: Warning: 0000016ABD650F00: libcurl info message cache 10 (TLSv1.2 (OUT), TLS change cipher, Client hello (1):)
+[2022.06.22-13.34.50:696][972]LogHttp: Warning: 0000016ABD650F00: libcurl info message cache 11 (TLSv1.2 (OUT), TLS handshake, Finished (20):)
+[2022.06.22-13.34.50:697][972]LogHttp: Warning: 0000016ABD650F00: libcurl info message cache 12 (SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256)
+[2022.06.22-13.34.50:697][972]LogHttp: Warning: 0000016ABD650F00: libcurl info message cache 13 (ALPN, server accepted to use http/1.1)
+[2022.06.22-13.34.50:697][972]LogHttp: Warning: 0000016ABD650F00: libcurl info message cache 14 (Server certificate:)
+[2022.06.22-13.34.50:697][972]LogHttp: Warning: 0000016ABD650F00: libcurl info message cache 15 ( subject: CN=*.hqqj3kgvke57i.us-east-1.cs.amazonlightsail.com)
+[2022.06.22-13.34.50:697][972]LogHttp: Warning: 0000016ABD650F00: libcurl info message cache 16 ( start date: Apr  6 00:00:00 2022 GMT)
+[2022.06.22-13.34.50:697][972]LogHttp: Warning: 0000016ABD650F00: libcurl info message cache 17 ( expire date: May  5 23:59:59 2023 GMT)
+[2022.06.22-13.34.50:697][972]LogHttp: Warning: 0000016ABD650F00: libcurl info message cache 18 ( subjectAltName does not match datarouter.ol.epicgames.com)
+[2022.06.22-13.34.50:697][972]LogHttp: Warning: 0000016ABD650F00: libcurl info message cache 19 (SSL: no alternative certificate subject name matches target host name 'datarouter.ol.epicgames.com')
+[2022.06.22-13.34.50:697][972]LogHttp: Warning: 0000016ABD650F00: libcurl info message cache 20 (Closing connection 10)
+[2022.06.22-13.34.50:697][972]LogHttp: Warning: 0000016ABD650F00: libcurl info message cache 21 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2022.06.22-13.34.50:698][972]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B623D5614-4C74-8D45-75F7-71B1BA1F0E92%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=fb4510f546128c7969546d8dd2b0e163%7C80eb538ab7a74e2db61043cd41bcb5ed%7C21911977-269b-4b24-bab5-5461cbf71006&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2022.06.22-13.35.50:822][948]LogHttp: Warning: 0000016A99596400: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B623D5614-4C74-8D45-75F7-71B1BA1F0E92%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=fb4510f546128c7969546d8dd2b0e163%7C80eb538ab7a74e2db61043cd41bcb5ed%7C21911977-269b-4b24-bab5-5461cbf71006&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2022.06.22-13.35.50:822][948]LogHttp: Warning: 0000016A99596400: request failed, libcurl error: 51 (SSL peer certificate or SSH remote key was not OK)
+[2022.06.22-13.35.50:822][948]LogHttp: Warning: 0000016A99596400: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2022.06.22-13.35.50:822][948]LogHttp: Warning: 0000016A99596400: libcurl info message cache 1 (  Trying 52.44.102.139...)
+[2022.06.22-13.35.50:822][948]LogHttp: Warning: 0000016A99596400: libcurl info message cache 2 (TCP_NODELAY set)
+[2022.06.22-13.35.50:822][948]LogHttp: Warning: 0000016A99596400: libcurl info message cache 3 (Connected to datarouter.ol.epicgames.com (52.44.102.139) port 443 (#11))
+[2022.06.22-13.35.50:822][948]LogHttp: Warning: 0000016A99596400: libcurl info message cache 4 (ALPN, offering http/1.1)
+[2022.06.22-13.35.50:822][948]LogHttp: Warning: 0000016A99596400: libcurl info message cache 5 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2022.06.22-13.35.50:822][948]LogHttp: Warning: 0000016A99596400: libcurl info message cache 6 (SSL re-using session ID)
+[2022.06.22-13.35.50:822][948]LogHttp: Warning: 0000016A99596400: libcurl info message cache 7 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2022.06.22-13.35.50:823][948]LogHttp: Warning: 0000016A99596400: libcurl info message cache 8 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2022.06.22-13.35.50:823][948]LogHttp: Warning: 0000016A99596400: libcurl info message cache 9 (TLSv1.2 (IN), TLS handshake, Finished (20):)
+[2022.06.22-13.35.50:823][948]LogHttp: Warning: 0000016A99596400: libcurl info message cache 10 (TLSv1.2 (OUT), TLS change cipher, Client hello (1):)
+[2022.06.22-13.35.50:823][948]LogHttp: Warning: 0000016A99596400: libcurl info message cache 11 (TLSv1.2 (OUT), TLS handshake, Finished (20):)
+[2022.06.22-13.35.50:823][948]LogHttp: Warning: 0000016A99596400: libcurl info message cache 12 (SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256)
+[2022.06.22-13.35.50:823][948]LogHttp: Warning: 0000016A99596400: libcurl info message cache 13 (ALPN, server accepted to use http/1.1)
+[2022.06.22-13.35.50:823][948]LogHttp: Warning: 0000016A99596400: libcurl info message cache 14 (Server certificate:)
+[2022.06.22-13.35.50:823][948]LogHttp: Warning: 0000016A99596400: libcurl info message cache 15 ( subject: CN=*.hqqj3kgvke57i.us-east-1.cs.amazonlightsail.com)
+[2022.06.22-13.35.50:823][948]LogHttp: Warning: 0000016A99596400: libcurl info message cache 16 ( start date: Apr  6 00:00:00 2022 GMT)
+[2022.06.22-13.35.50:823][948]LogHttp: Warning: 0000016A99596400: libcurl info message cache 17 ( expire date: May  5 23:59:59 2023 GMT)
+[2022.06.22-13.35.50:823][948]LogHttp: Warning: 0000016A99596400: libcurl info message cache 18 ( subjectAltName does not match datarouter.ol.epicgames.com)
+[2022.06.22-13.35.50:823][948]LogHttp: Warning: 0000016A99596400: libcurl info message cache 19 (SSL: no alternative certificate subject name matches target host name 'datarouter.ol.epicgames.com')
+[2022.06.22-13.35.50:823][948]LogHttp: Warning: 0000016A99596400: libcurl info message cache 20 (Closing connection 11)
+[2022.06.22-13.35.50:823][948]LogHttp: Warning: 0000016A99596400: libcurl info message cache 21 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2022.06.22-13.35.50:823][948]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B623D5614-4C74-8D45-75F7-71B1BA1F0E92%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=fb4510f546128c7969546d8dd2b0e163%7C80eb538ab7a74e2db61043cd41bcb5ed%7C21911977-269b-4b24-bab5-5461cbf71006&AppEnvironment=datacollector-binary&UploadType=eteventstream
